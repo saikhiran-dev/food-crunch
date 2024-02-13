@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/food-crunch/static/css/main.32404ff3.css",
+    "main.js": "/food-crunch/static/js/main.2fc84cb9.js",
+    "index.html": "/food-crunch/index.html",
+    "main.32404ff3.css.map": "/food-crunch/static/css/main.32404ff3.css.map",
+    "main.2fc84cb9.js.map": "/food-crunch/static/js/main.2fc84cb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32404ff3.css",
+    "static/js/main.2fc84cb9.js"
+  ]
+}
