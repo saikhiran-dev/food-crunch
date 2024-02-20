@@ -1,12 +1,15 @@
 import React from "react";
-import MenuItemCard from "./MenuItemCard";
+// import MenuItemCard from "./MenuItemCard";
 import { Link } from "react-router-dom";
 
-function HomeMenuSection() {
+const HomeMenuSection = ({ menuWidth, menuheight }) => {
   return (
-    <div id="menuSection">
+    <div
+      id="menuSection"
+      style={{ width: `${menuWidth}`, height: `${menuheight}` }}
+    >
       <div class="menu-section">
-        <h1 class="menu-section-heading ">Explore Menu</h1>
+        <h1 class="menu-section-heading ">Menu</h1>
         <div class="menu-item-cards">
           {/* non veg  starters */}
           <div class="menu-item-card">
@@ -206,6 +209,6 @@ function HomeMenuSection() {
       </div>
     </div>
   );
-}
+};
 
 export default HomeMenuSection;
